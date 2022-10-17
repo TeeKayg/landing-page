@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.HeaderSection{
+    background-color: #1F2937;
+    height: 400px;
+}
+
+.HeaderBar{
+    display:flex;
+    flex-direction: row;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    margin:10px;
+}
+
+.HeaderBarLeft{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.HeaderBarRight{
+    font-size: 18px;
+    color: #E6E7EB;
+}
+
+.HeaderBarLeft,.HeaderBarRight{
+    display:flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
+
+.HeroText{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.HeroTextLeft{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    width: 50%;
+}
+
+.thebutton{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 5px 26px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.ImagePlaceholder{
+    display:flex;
+    background-color: gray;
+    color: white;
+    height: 200px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    width: 200px;
+}
+
+.HeroTextHeader{
+    color: #F9FAF8;
+    font-size:48px;
+}
+
+.HeroTextSub{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: 130px;
+}
+
+
