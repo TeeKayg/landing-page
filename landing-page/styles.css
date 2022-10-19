@@ -75,7 +75,7 @@ ul{
     align-items: center;
     flex-direction: column;
     flex: 1;
-    width: 200px;
+    width: 100px;
 }
 
 .HeroTextHeader{
@@ -145,11 +145,32 @@ ul{
     border-radius: 20px;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
+    column-gap: 50px;
 }
 
 .ActionText{
     color: white;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    column-gap: 100px;
+}
+
+.SignUpButton{
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    font-style: bold;
+}
+
+.CopyrightBanner{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100px;
 }
 
